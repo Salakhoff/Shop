@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		17603B282BE871F60081E4E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17603B272BE871F60081E4E5 /* AppDelegate.swift */; };
 		17603B2A2BE871F60081E4E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17603B292BE871F60081E4E5 /* SceneDelegate.swift */; };
-		17603B2C2BE871F60081E4E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17603B2B2BE871F60081E4E5 /* ViewController.swift */; };
+		17603B2C2BE871F60081E4E5 /* AdsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17603B2B2BE871F60081E4E5 /* AdsListViewController.swift */; };
 		17603B312BE871F80081E4E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17603B302BE871F80081E4E5 /* Assets.xcassets */; };
 		17603B342BE871F80081E4E5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 17603B332BE871F80081E4E5 /* Base */; };
 		17603B412BE872EA0081E4E5 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 17603B402BE872EA0081E4E5 /* RxCocoa */; };
@@ -17,16 +17,29 @@
 		17603B452BE872EA0081E4E5 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 17603B442BE872EA0081E4E5 /* RxSwift */; };
 		17603B482BE872FB0081E4E5 /* Differentiator in Frameworks */ = {isa = PBXBuildFile; productRef = 17603B472BE872FB0081E4E5 /* Differentiator */; };
 		17603B4A2BE872FB0081E4E5 /* RxDataSources in Frameworks */ = {isa = PBXBuildFile; productRef = 17603B492BE872FB0081E4E5 /* RxDataSources */; };
+		17603B4E2BE874180081E4E5 /* Ad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17603B4D2BE874170081E4E5 /* Ad.swift */; };
+		17603B512BE876380081E4E5 /* AdsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17603B502BE876380081E4E5 /* AdsListCell.swift */; };
+		17603B532BE877420081E4E5 /* AdsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17603B522BE877420081E4E5 /* AdsViewModel.swift */; };
+		17603B552BE877B40081E4E5 /* AdsNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17603B542BE877B40081E4E5 /* AdsNetworkService.swift */; };
+		17603B572BE878940081E4E5 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17603B562BE878940081E4E5 /* NetworkError.swift */; };
+		17603B5A2BE880EE0081E4E5 /* Fakery in Frameworks */ = {isa = PBXBuildFile; productRef = 17603B592BE880EE0081E4E5 /* Fakery */; };
+		17603B5F2BE88C7C0081E4E5 /* ActivityIndicatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17603B5E2BE88C7C0081E4E5 /* ActivityIndicatorCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17603B242BE871F60081E4E5 /* Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17603B272BE871F60081E4E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17603B292BE871F60081E4E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17603B2B2BE871F60081E4E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17603B2B2BE871F60081E4E5 /* AdsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsListViewController.swift; sourceTree = "<group>"; };
 		17603B302BE871F80081E4E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17603B332BE871F80081E4E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17603B352BE871F80081E4E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17603B4D2BE874170081E4E5 /* Ad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ad.swift; sourceTree = "<group>"; };
+		17603B502BE876380081E4E5 /* AdsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsListCell.swift; sourceTree = "<group>"; };
+		17603B522BE877420081E4E5 /* AdsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsViewModel.swift; sourceTree = "<group>"; };
+		17603B542BE877B40081E4E5 /* AdsNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsNetworkService.swift; sourceTree = "<group>"; };
+		17603B562BE878940081E4E5 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		17603B5E2BE88C7C0081E4E5 /* ActivityIndicatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +49,7 @@
 			files = (
 				17603B482BE872FB0081E4E5 /* Differentiator in Frameworks */,
 				17603B452BE872EA0081E4E5 /* RxSwift in Frameworks */,
+				17603B5A2BE880EE0081E4E5 /* Fakery in Frameworks */,
 				17603B432BE872EA0081E4E5 /* RxRelay in Frameworks */,
 				17603B4A2BE872FB0081E4E5 /* RxDataSources in Frameworks */,
 				17603B412BE872EA0081E4E5 /* RxCocoa in Frameworks */,
@@ -64,12 +78,12 @@
 		17603B262BE871F60081E4E5 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
+				17603B5C2BE88C680081E4E5 /* Views */,
 				17603B3B2BE8720A0081E4E5 /* App */,
 				17603B3E2BE872C80081E4E5 /* Scenes */,
 				17603B4B2BE873050081E4E5 /* Services */,
 				17603B3D2BE872B30081E4E5 /* Entitites */,
 				17603B3C2BE872110081E4E5 /* Resources */,
-				17603B2B2BE871F60081E4E5 /* ViewController.swift */,
 				17603B352BE871F80081E4E5 /* Info.plist */,
 			);
 			path = Shop;
@@ -96,6 +110,7 @@
 		17603B3D2BE872B30081E4E5 /* Entitites */ = {
 			isa = PBXGroup;
 			children = (
+				17603B4D2BE874170081E4E5 /* Ad.swift */,
 			);
 			path = Entitites;
 			sourceTree = "<group>";
@@ -103,6 +118,7 @@
 		17603B3E2BE872C80081E4E5 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				17603B4F2BE875B60081E4E5 /* AdsView */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -110,8 +126,44 @@
 		17603B4B2BE873050081E4E5 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				17603B542BE877B40081E4E5 /* AdsNetworkService.swift */,
+				17603B562BE878940081E4E5 /* NetworkError.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		17603B4F2BE875B60081E4E5 /* AdsView */ = {
+			isa = PBXGroup;
+			children = (
+				17603B5B2BE885DE0081E4E5 /* Views */,
+			);
+			path = AdsView;
+			sourceTree = "<group>";
+		};
+		17603B5B2BE885DE0081E4E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17603B2B2BE871F60081E4E5 /* AdsListViewController.swift */,
+				17603B502BE876380081E4E5 /* AdsListCell.swift */,
+				17603B522BE877420081E4E5 /* AdsViewModel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		17603B5C2BE88C680081E4E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17603B5D2BE88C6E0081E4E5 /* ActivitiIndicatir */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		17603B5D2BE88C6E0081E4E5 /* ActivitiIndicatir */ = {
+			isa = PBXGroup;
+			children = (
+				17603B5E2BE88C7C0081E4E5 /* ActivityIndicatorCell.swift */,
+			);
+			path = ActivitiIndicatir;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +188,7 @@
 				17603B442BE872EA0081E4E5 /* RxSwift */,
 				17603B472BE872FB0081E4E5 /* Differentiator */,
 				17603B492BE872FB0081E4E5 /* RxDataSources */,
+				17603B592BE880EE0081E4E5 /* Fakery */,
 			);
 			productName = Shop;
 			productReference = 17603B242BE871F60081E4E5 /* Shop.app */;
@@ -168,6 +221,7 @@
 			packageReferences = (
 				17603B3F2BE872EA0081E4E5 /* XCRemoteSwiftPackageReference "RxSwift" */,
 				17603B462BE872FB0081E4E5 /* XCRemoteSwiftPackageReference "RxDataSources" */,
+				17603B582BE880EE0081E4E5 /* XCRemoteSwiftPackageReference "Fakery" */,
 			);
 			productRefGroup = 17603B252BE871F60081E4E5 /* Products */;
 			projectDirPath = "";
@@ -195,8 +249,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17603B2C2BE871F60081E4E5 /* ViewController.swift in Sources */,
+				17603B4E2BE874180081E4E5 /* Ad.swift in Sources */,
+				17603B572BE878940081E4E5 /* NetworkError.swift in Sources */,
+				17603B2C2BE871F60081E4E5 /* AdsListViewController.swift in Sources */,
+				17603B552BE877B40081E4E5 /* AdsNetworkService.swift in Sources */,
+				17603B5F2BE88C7C0081E4E5 /* ActivityIndicatorCell.swift in Sources */,
 				17603B282BE871F60081E4E5 /* AppDelegate.swift in Sources */,
+				17603B532BE877420081E4E5 /* AdsViewModel.swift in Sources */,
+				17603B512BE876380081E4E5 /* AdsListCell.swift in Sources */,
 				17603B2A2BE871F60081E4E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +496,14 @@
 				minimumVersion = 5.0.2;
 			};
 		};
+		17603B582BE880EE0081E4E5 /* XCRemoteSwiftPackageReference "Fakery" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vadymmarkov/Fakery";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -463,6 +531,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 17603B462BE872FB0081E4E5 /* XCRemoteSwiftPackageReference "RxDataSources" */;
 			productName = RxDataSources;
+		};
+		17603B592BE880EE0081E4E5 /* Fakery */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17603B582BE880EE0081E4E5 /* XCRemoteSwiftPackageReference "Fakery" */;
+			productName = Fakery;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -16,7 +16,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = ViewController()
+        
+        let service = AdsService()
+        let headlinesViewModel = AdsViewModel(service: service)
+        let headlineViewController = AdsListViewController(viewModel: headlinesViewModel)
+        let navigationViewController = UINavigationController(rootViewController: headlineViewController)
+        window.rootViewController = navigationViewController
         window.makeKeyAndVisible()
         
         self.window = window
